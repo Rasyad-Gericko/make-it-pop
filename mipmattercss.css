@@ -1,0 +1,65 @@
+/*----------------------------- Make It Pop Style -----------------------------*/
+
+.tricks-circle {
+  background: #3a71dd;
+  border: 1.5px solid #212121;
+  /*background-image: url("https://uploads-ssl.webflow.com/5fd8d3f474ccd27a50791cf5/60ce51a4d0238c1ac93cf59e_face.svg");*/
+  overflow: hidden;
+  position: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  border-radius: 100%;
+}
+
+.tricks-circle:nth-child(2) {
+  background: #de6c9b;
+  border-radius: 0%;
+}
+
+.tricks-circle:nth-child(3) {
+  background: transparent;
+  border: none;
+  background-position: center;
+  background-size: 100% auto;
+  border-radius: 0%;
+  background-repeat: no-repeat;
+  background-image: url("https://uploads-ssl.webflow.com/63abb3529b03964acc90823a/64cb2db56b542a2d3ab6c85f_matter-container-1.svg");
+}
+
+.tricks-circle:nth-child(4) {
+  background: transparent;
+  border: none;
+  background-position: center;
+  background-size: 100% auto;
+  border-radius: 0%;
+  background-repeat: no-repeat;
+  background-image: url("https://uploads-ssl.webflow.com/63abb3529b03964acc90823a/64cb2db50aedf9ee43b4580c_matter-container-2.svg");
+}
+
+.tricks-circle:nth-child(5) {
+  background: transparent;
+  border: none;
+  background-position: center;
+  background-size: 100% auto;
+  border-radius: 0%;
+  background-repeat: no-repeat;
+  background-image: url("https://uploads-ssl.webflow.com/63abb3529b03964acc90823a/64cb305dc160b2b86e5becb3_matter-container.svg");
+}
+
+.mip-canvas {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+
+.mip-elements,
+.mip-spacer {
+  pointer-events: none;
+}
+
+.mip-m-link {
+  display: none;
+}
